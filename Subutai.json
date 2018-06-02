@@ -2,7 +2,7 @@
     "name": "${environmentName}",
     "description": "Minecraft Server",
     "version": "1.0.2",
-    "author": "https://github.com/lbthomsen",
+    "author": "https://github.com/sudtanj",
     "ssh-key": "lth",
     "containers": [
         {
@@ -53,6 +53,10 @@
             {
                 "key": "minecraft_max_players",
                 "value": "${minecraftMaxPlayers}"
+            },
+            {
+                "key": "minecraft_online_mode",
+                "value": "${minecraftOnlineMode}"
             }
         ],
         "groups": [
@@ -118,6 +122,12 @@
             "type": "string",
             "default": "20",
             "validation": "[0-9]+"
+        },
+        "minecraftOnlineMode": {
+            "description": "Online Mode",
+            "type": "enum",
+            "default": "false",
+            "validation": "false,true"
         }
     }
 }
