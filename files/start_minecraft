@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /usr/local/minecraft && java -Xmx1024M -Xms1024M -jar server.jar nogui
+cd /usr/local/minecraft && java -Xmx1024M -Xms1024M -jar server.jar -o false nogui 
