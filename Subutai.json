@@ -96,7 +96,7 @@
         "minecraftEula": {
             "description": "Accept Minecraft EULA",
             "type": "enum",
-            "default": "false",
+            "default": "TRUE",
             "validation": "false,TRUE"
         },
         "minecraftMotd": {
