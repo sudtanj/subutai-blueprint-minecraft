@@ -2,4 +2,5 @@
 #
 # Start Minecraft
 #
-screen -dmS minecraft bash -c "cd /usr/local/minecraft && java -jar server.jar -o false"
+screen -dmS minecraft bash -c "cd /usr/local/minecraft && ava -Xms256m -Xmx512m -jar server.jar nogui -o false"
+"
